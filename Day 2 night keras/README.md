@@ -1,3 +1,7 @@
+## Reference for Cyclce GAN
+
+https://machinelearningmastery.com/cyclegan-tutorial-with-keras/
+
 ## Epoch 2
 
 ### Day to Night images
