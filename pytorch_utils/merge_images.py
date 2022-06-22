@@ -24,3 +24,13 @@ def merge_images(img1,img2,dest_folder):
   img1=img1.split('/')[-1]
   new_im.save(dest_folder+img1, "PNG")
   new_im.show()
+
+  
+import os
+folder1_path = '/content/cur/A/'
+folder2_path = '/content/cur/B/'
+for img1 in os.listdir(folder1_path):
+  if(img1.startswith("real")):
+    img2=img1.replace("real","fake")
+    if(os.path.exists(folder2_path+img2)):
+      merge_images(folder1_path+img1,folder2_path+img2,'/content/')
