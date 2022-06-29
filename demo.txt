@@ -1,2 +1,3 @@
 Hello simple Learning
 https://colab.research.google.com/drive/1siN9UvJ7tyObZtiUNEZjAmegXfFDDjGE?usp=sharing
+gdown https://drive.google.com/uc?id=1-KDzq38-rMrFauxD565URAeraDEbz2MV
